@@ -7,7 +7,7 @@ public class Level1 {
         // Creates a new Bicycle object from Bicycle class
         Bicycle defaultBike = new Bicycle();
 
-        defaultBike.brake();
+        defaultBike.turn("left");
 
     }
 }

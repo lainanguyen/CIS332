@@ -14,8 +14,40 @@ public class Bicycle {
         gear = 1;
         maxVelocity = 20;
     }
+    Bicycle(String c, int g, double mV){    // String color, int gear, double maxVelocity
+        this.color = c;
+        this.gear = g;
+        this.maxVelocity = mV;
+    }
 
-    // Methods
+    // Getters and Setters (Accessors and Mutators)
+
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public int getGear() {
+        return gear;
+    }
+
+    public void setGear(int gear) {
+        this.gear = gear;
+    }
+
+    public double getMaxVelocity() {
+        return maxVelocity;
+    }
+
+    public void setMaxVelocity(double maxVelocity) {
+        this.maxVelocity = maxVelocity;
+    }
+
+    // Helper Methods
     public void brake(){
         System.out.println("I'm braking...");
     }

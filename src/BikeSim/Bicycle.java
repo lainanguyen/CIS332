@@ -20,4 +20,12 @@ public class Bicycle {
         System.out.println("I'm braking...");
     }
 
+    public void jump(){
+        System.out.println("JUMP");
+    }
+
+    public void turn(String dir){
+        System.out.println("I'm turning " + dir);
+    }
+
 }

@@ -21,7 +21,7 @@ public class HWset2 {
         for (int i = 0; i < n; i++)
             for (int j = 0; j < m; j++)
                 if (A1[i] == A2[j])
-                    System.out.println(A1[i] + " " + A2[j]);
+                    System.out.println("The repeated numbers are: " + A1[i]);
     }
 
     public static void namePyramid(String name) {

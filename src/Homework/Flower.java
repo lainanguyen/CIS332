@@ -11,9 +11,9 @@ public class Flower {
 
     String flower;
     int petals;
-    float price; // in rupees
+    double price;
 
-    public Flower(String flower, int petals, float price) {
+    public Flower(String flower, int petals, double price) {
 
         this.flower = flower;
         this.petals = petals;
@@ -36,7 +36,7 @@ public class Flower {
         this.petals = petals;
     }
 
-    public float getPrice() {
+    public double getPrice() {
         return price;
     }
 

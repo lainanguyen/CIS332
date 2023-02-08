@@ -25,7 +25,7 @@ public class HWset2 {
     }
 
     public static void namePyramid(String name) {
-        for (int i = 1; i <= name.length(); i++) {
+        for (int i = 1; i <= name.length() - 1; i++) {
             for (int j = 5 - i; j >= 0; j--) {
                 System.out.print(" ");
             }
@@ -34,5 +34,7 @@ public class HWset2 {
             }
             System.out.println();
         }
+        String input = " **" + name + "**";
+        System.out.println(input);
     }
 }

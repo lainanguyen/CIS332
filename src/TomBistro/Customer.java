@@ -6,11 +6,13 @@ public class Customer extends Person {
     private double moneySaved;
     private String favMenuItem;
 
-    Customer(){
+    // CONSTRUCTOR: Is called when you want to create/construct this object
+    // Specifically when the keyword 'new' is used
+    Customer(double ms, String fmi, String n, int a, String em){
         // Decide on mandatory items
         // Everything else is default
-        super(name);
-        this.moneySaved = 0;
+        super(n, a, em);
+        this.moneySaved = ms;
         this.favMenuItem = "Water";
     }
 }

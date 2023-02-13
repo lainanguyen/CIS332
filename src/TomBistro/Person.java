@@ -5,10 +5,17 @@ public class Person {
     private int age;
     private String email;
 
-    Person(String n){
+    Person(String n, int a, String em){
         this.name = n;
         this.age = 0;
-        email = "default@gmail.com"
+        email = "default@gmail.com";
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 }
